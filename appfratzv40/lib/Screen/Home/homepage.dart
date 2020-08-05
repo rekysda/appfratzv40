@@ -52,7 +52,7 @@ class _HomeState extends State<Home> {
         Navigator.pushNamed(context, '/Profil');
       }
       if (index == 2) {
-        Navigator.pushNamed(context, '/Logout');
+        Navigator.pushReplacementNamed(context, '/Logout');
       }
       if (index == 3) {
         Navigator.pushNamed(context, '/FCM');
