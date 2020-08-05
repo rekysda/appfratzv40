@@ -27,7 +27,7 @@ class _HomeState extends State<Home> {
                 iconBtnAppbar("assets/icons/Home.svg", "Home", 0),
                 iconBtnAppbar("assets/icons/MyAccount.svg", "Profile", 1),
                 iconBtnAppbar("assets/icons/logout.svg", "Logout", 2),
-                iconBtnAppbar("assets/icons/Help.svg", "FCM", 3),
+            //    iconBtnAppbar("assets/icons/Help.svg", "FCM", 3),
               ],
             ),
           ),
