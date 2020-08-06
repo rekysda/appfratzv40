@@ -37,6 +37,7 @@ class GofoodMenu extends StatelessWidget {
             child: ListView(
               scrollDirection: Axis.horizontal,
               children: <Widget>[
+                ImageScroll(imgpath: "assets/images/flc.jpeg", text: "FLC",),
                 ImageScroll(imgpath: "assets/images/99.jpg", text: "Gedung",),
                 ImageScroll(imgpath: "assets/images/02.jpg", text: "Taman Dalam",),
                 ImageScroll(imgpath: "assets/images/03.jpg", text: "Taman Dalam",),

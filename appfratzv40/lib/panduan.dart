@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:flutter_linkify/flutter_linkify.dart';
 // PROFIL //
 class Panduan extends StatefulWidget {
   @override
@@ -29,7 +30,8 @@ body: new Container(
         child: new Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
-             new Text("Panduan"),    
+             new Text("Panduan"), 
+             new Image.asset("assets/images/desainpembayaran.jpg")   
           ]
         )
       )
